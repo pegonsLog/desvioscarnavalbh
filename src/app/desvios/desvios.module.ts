@@ -5,7 +5,7 @@ import { DesviosRoutingModule } from './desvios-routing.module';
 import { DesviosListComponent } from './desvios-list/desvios-list.component';
 import { DesviosFormComponent } from './desvios-form/desvios-form.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     DesviosRoutingModule,
     AngularMaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule,
   ],
   exports: [
     DesviosListComponent,
