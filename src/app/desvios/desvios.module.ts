@@ -18,11 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     DesviosRoutingModule,
     AngularMaterialModule,
     ReactiveFormsModule,
-<<<<<<< HEAD
     FormsModule
-=======
-    FormsModule,
->>>>>>> e6e9712b7d3ac68db7933ab6e7c5c8b136c3f532
   ],
   exports: [
     DesviosListComponent,
