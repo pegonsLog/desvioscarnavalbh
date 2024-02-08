@@ -7,6 +7,9 @@ import { LoginModule } from './login/login.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DesviosModule } from './desvios/desvios.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     DesviosModule,
     LoginModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirestore(() => getFirestore())
   ],
   providers: [],
   bootstrap: [AppComponent]

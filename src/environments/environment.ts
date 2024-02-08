@@ -1,13 +1,12 @@
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyDopdDcoa_B7_52vb8oCQJyjKGKTCCMIKg",
-    authDomain: "desvioscarnavalbh.firebaseapp.com",
-    projectId: "desvioscarnavalbh",
-    storageBucket: "desvioscarnavalbh.appspot.com",
-    messagingSenderId: "719218850821",
-    appId: "1:719218850821:web:7912d85660da5fb1c2706c",
-    measurementId: "G-JDPP80BXRG"
-
+    projectId: 'desvioscarnavalbh-cd8d4',
+    appId: '1:1031196169704:web:d57ba330b8f0e91bc0405d',
+    storageBucket: 'desvioscarnavalbh-cd8d4.appspot.com',
+    apiKey: 'AIzaSyDsnYAZ9Xm7lMDiBP_RltO13Waa3mnkNNs',
+    authDomain: 'desvioscarnavalbh-cd8d4.firebaseapp.com',
+    messagingSenderId: '1031196169704',
+    measurementId: 'G-KBPVEN6MVF',
   },
   production: false,
 };

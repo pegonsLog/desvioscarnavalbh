@@ -102,6 +102,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "desvioscarnavalbh:build:production",
+            "firebaseProject": "desvioscarnavalbh-cd8d4",
+            "firebaseHostingSite": "desvioscarnavalbh-cd8d4"
+          }
         }
       }
     }

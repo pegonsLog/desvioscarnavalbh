@@ -1,5 +1,14 @@
 {
+  "targets": {
+    "desvioscarnavalbh-cd8d4": {
+      "hosting": {
+        "desvioscarnavalbh": [
+          "desvioscarnavalbh-cd8d4"
+        ]
+      }
+    }
+  },
   "projects": {
-    "default": "desvioscarnavalbh"
+    "default": "desvioscarnavalbh-cd8d4"
   }
 }

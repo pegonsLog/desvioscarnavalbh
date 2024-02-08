@@ -8,14 +8,14 @@ export class LoginService {
   users: User[] = [];
   auth: string = '';
   userLogin: User[] = [
-    { id: 1, user: '2023', password: '2023', role: 'user' },
+    { id: 1, user: '2024', password: '2024', role: 'user' },
     { id: 2, user: '564', password: '123456', role: 'adm' },
   ];
 
   constructor() {}
 
   userAuth(user: Partial<User>): string {
-    if (user.user === '2023' && user.password === '2023') {
+    if (user.user === '2024' && user.password === '2024') {
       this.auth = 'user';
       return this.auth;
     }
